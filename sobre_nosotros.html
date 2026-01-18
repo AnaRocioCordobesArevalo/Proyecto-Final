@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='x-UA-Compatible' content='IE=edge'>
+    <title>Catabasis Games</title>
+    <meta name="description" content="Sobre nosotros">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/webp' href='images/logo.webp'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src='js/main.js' defer></script>
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="images/logo.webp" alt="Logo" class="header__logo">
+                <h1 class="header__title">CATABASIS GAMES</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href='index.html' class="activo">INICIO</a></li>
+                    <li class="header__nav-item header__nav-item--dropdown">
+                        <a href="noticias.html">NOTICIAS</a>
+                        <ul class="header__submenu">
+                            <li><a href="podcast.html">PODCAST</a></li>
+                            <li><a href="articulos.html">ARTICULOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="registro.html" class="header__user-icon">
+                            <img src="images/icono-usuario.jpg" alt="Usuario">
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger"> <!--Menu Hamburguesa-->
+            <div class="hamburger__layer hamburger__layer--top"></div>
+            <div class="hamburger__layer hamburger__layer--mid"></div>
+            <div class="hamburger__layer hamburger__layer--bottom"></div>
+        </div>
+        <nav class="menuppal"> <!--Submenu-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="articulos.html">ARTICULOS</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main class="main-container">
+        <section class="manifesto">
+            <header class="manifesto__header">
+                <h2 class="manifesto__main-title">Manifiesto</h2>
+            </header>
+
+            <div class="manifesto__container">
+                <div class="manifesto__text-content">
+                    <h3 class="manifesto__subtitle">¿Qué es CATEBASIS?</h3>
+                    <p class="manifesto__paragraph">
+                        Mucho más que videojuegos. Cultura, desarrollo y actualidad.
+                    </p>
+                    <p class="manifesto__paragraph">
+                        Bienvenidos a CATABASIS. En nuestra web exploramos el videojuego desde todos sus ángulos: desde
+                        la noticia inmediata y el artículo de opinión, hasta el proceso creativo detrás de cada título.
+                    </p>
+                    <p>
+                        Tras siete años de experiencia en el sector editorial, seguimos apostando por el papel y la
+                        profundidad con nuestra revista independiente, un proyecto ambicioso diseñado para conectar el
+                        videojuego con el arte y la sociedad. Infórmate con nosotros, reflexiona con nuestros autores y
+                        colecciona nuestras ediciones físicas.
+                    </p>
+                </div>
+
+                <figure class="manifesto__image-wrapper">
+                    <picture>
+                        <source srcset="images/logo.webp" type="image/webp">
+                        <img src="images/logo.webp" alt="Logo de Catabasis: Icono de escalaera" class="manifesto__logo"
+                            loading="lazy">
+                    </picture>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#" class="footer__link">Privacidad</a>
+        <a href="#" class="footer__link">Terminos</a>
+        <a href="#" class="footer__link">Ayuda</a>
+        <a href="#" class="footer__link">Redes Sociales</a>
+        <p class="footer__copyright">&copy; 2026 Catabasis Games Web</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='x-UA-Compatible' content='IE=edge'>
+    <title>Catabasis Games</title>
+    <meta name="description" content="Bienvenido a Catabasis Games, noticias y novedades de videojuegos">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='icon' type='image/webp' href='images/logo.webp'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <script src='js/main.js' defer></script>
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="images/logo.webp" alt="Logo" class="header__logo">
+                <h1 class="header__title">CATABASIS GAMES</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href='index.html' class="activo">INICIO</a></li>
+                    <li class="header__nav-item header__nav-item--dropdown">
+                        <a href="noticias.html">NOTICIAS</a>
+                        <ul class="header__submenu">
+                            <li><a href="podcast.html">PODCAST</a></li>
+                            <li><a href="articulos.html">ARTICULOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="registro.html" class="header__user-icon">
+                            <img src="images/icono-usuario.jpg" alt="Usuario">
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger"> <!--Menu Hamburguesa-->
+            <div class="hamburger__layer hamburger__layer--top"></div>
+            <div class="hamburger__layer hamburger__layer--mid"></div>
+            <div class="hamburger__layer hamburger__layer--bottom"></div>
+        </div>
+        <nav class="menuppal"> <!--Submenu-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="articulos.html">ARTICULOS</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <article class="post">
+            <h2 class="post__title">Los juegos más esperados del año</h2>
+            <p class="post__meta">Publicado el 2 del ENERO, 2026 </p>
+
+            <picture class="post__picture">
+                <source srcset="images/juegos2026.webp" type="image/webp">
+                <img src="images/juegos2026.webp" alt="Captura de los juegos más esperados del 2026."
+                    class="post__image" loading="lazy">
+            </picture>
+
+            <div class="post__parrafo">
+                <p>
+                    Después de tantos años, Sam Eng demuestra estar a la altura de las altísimas expectativas y firma un
+                    juego único, profundo y radicalmente inusual.
+                </p>
+            </div>
+
+            <a href="#" class="btn-read-more" title="Seguir leyendo sobre los juegos más esperados de este año">Leer
+                más...</a>
+        </article>
+        <div class="blog-layout">
+            <section class="news-section">
+                <h2 class="news-section__main-title">Últimas Noticias</h2>
+
+                <article class="news-card"> <!--Articulos Reanimal-->
+                    <a href="articulo-reanimal.html" class="news-card__link" title="Leer detalles sobre Reanimals">
+                        <div class="news-card__image">
+                            <picture>
+                                <source srcset="images/reanimal.webp" type="image/webp">
+                                <img src="images/reanimal.jpg" alt="Imagen del juego Reanimals" loading="lazy">
+                            </picture>
+
+                        </div>
+                        <div class="news-card__content">
+                            <p class="news-card__meta">30 DICIEMBRE DEL 2025 por ROMERO VARGAS</p>
+                            <h3 class="news-card__title">Reanimals</h3>
+                            <p class="news-card__excerpt">Los principales detalles de Reanimal, una aventura de horror
+                                cooperativa.</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card"><!--Articulos Anuus Ovni-->
+                    <a href="#" class="news-card__link" title="Leer detalles sobre Annus Ovi">
+                        <div class="news-card__image">
+                            <picture>
+                                <source srcset="images/annus-ovi.jpg" type="image/webp">
+                                <img src="images/annus-ovi.jpg" alt="Imagen de Annus Ovi" loading="lazy">
+                            </picture>
+
+                        </div>
+                        <div class="news-card__content">
+                            <p class="news-card__meta">27 NOVIEMBRE DEL 2026 <span class="author">por PAQUITA
+                                    SALAS</span></p>
+                            <h3 class="news-card__title">Annus Ovi</h3>
+                            <p class="news-card__excerpt">Juegos «protagonizados» por huevos,.</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <!--Analisis-->
+            <aside class="sidebar-analysis">
+                <h2 class="analysis-header">#análisis</h2>
+                <!--Articulo de lumines arise-->
+                <article class="analysis-item-container">
+                    <a href="articulo-lumines.html" class="news-card__link" title="Leer análisis: Sentidos aumentados">
+                        <div class="analysis-item">
+                            <picture>
+                                <source srcset="images/lumines-3.jpg" type="image/jpg">
+                                <img src="images/lumines-3.jpg" alt="Analisis de Lumines Arise" loading="lazy">
+                            </picture>
+                            <div class="analysis-item__info">
+                                <h3 class="analysis-item__title">Sentidos aumentados</h3>
+                            </div>
+                        </div>
+                    </a>
+                </article><!--Articulo de processor-->
+                <article class="analysis-item-container">
+                    <a href="articulo-lumines.html" class="news-card__link"
+                        title="Leer análisis: Un juego que lo tuvo todo">
+                        <div class="analysis-item">
+                            <picture>
+                                <source srcset="images/possesor.jpg" type="image/jpg">
+                                <img src="images/possesor.jpg" alt="Analisis de Possesor" loading="lazy">
+                            </picture>
+                            <div class="analysis-item__info">
+                                <h3 class="analysis-item__title">Un juego que lo tuvo todo</h3>
+                            </div>
+                        </div>
+                    </a>
+                </article> <!--Articulo de Death Howel-->
+                <article class="analysis-item-container">
+                    <a href="#" class="news-card__link" title="Leer análisis: Un soulslike con cartas">
+                        <div class="analysis-item">
+                            <picture>
+                                <source srcset="images/death.jpg" type="image/jpg">
+                                <img src="images/death.jpg" alt="Analisis de Death Howel" loading="lazy">
+                            </picture>
+                            <div class="analysis-item__info">
+                                <h3 class="analysis-item__title">Un soulslike con cartas</h3>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="analysis-item-container"> <!--Articulo de Ninja Gaiden-->
+                    <a href="articulo-lumines.html" class="news-card__link"
+                        title="Leer análisis: Ninja Gaiden: Ragebound">
+                        <div class="analysis-item">
+                            <picture>
+                                <source srcset="images/ninja-gaiden.jpg" type="image/jpg">
+                                <img src="images/ninja-gaiden.jpg" alt="Analisis de Ninja Gaiden: Ragebound"
+                                    loading="lazy">
+                            </picture>
+                            <div class="analysis-item__info">
+                                <h3 class="analysis-item__title">Ninja Gaiden: Ragebound</h3>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </aside>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="#" class="footer__link">Privacidad</a>
+        <a href="#" class="footer__link">Terminos</a>
+        <a href="#" class="footer__link">Ayuda</a>
+        <a href="#" class="footer__link">Redes Sociales</a>
+        <p class="footer__copyright">&copy; 2026 Catabasis Games Web</p>
+    </footer>
+</body>
+
+</html>

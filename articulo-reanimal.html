@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='x-UA-Compatible' content='IE=edge'>
+    <title>Catabasis Games</title>
+    <meta name="description" content="Articulo Reanimal.">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/png' href='images/logo.webp'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src='js/main.js' defer></script>
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="images/logo.webp" alt="Logo" class="header__logo">
+                <h1 class="header__title">CATABASIS GAMES</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href='index.html' class="activo">INICIO</a></li>
+                    <li class="header__nav-item header__nav-item--dropdown">
+                        <a href="noticias.html">NOTICIAS</a>
+                        <ul class="header__submenu">
+                            <li><a href="podcast.html">PODCAST</a></li>
+                            <li><a href="articulos.html">ARTICULOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="registro.html" class="header__user-icon">
+                            <img src="images/icono-usuario.jpg" alt="Usuario">
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger"> <!--Menu Hamburguesa-->
+            <div class="hamburger__layer hamburger__layer--top"></div>
+            <div class="hamburger__layer hamburger__layer--mid"></div>
+            <div class="hamburger__layer hamburger__layer--bottom"></div>
+        </div>
+        <nav class="menuppal"> <!--Submenu-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="articulos.html">ARTICULOS</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-parallax">
+        <section class="parallax-section section-1" title="Imagen de cabecera de Reanimal">
+            <div class="parallax-content">
+                <h2 class="parallax-tittle-reanimal">REANIMAL</h2>
+            </div>
+        </section>
+
+        <section class="article-parallax-container">
+            <div class="article-content-inner">
+                <article class="article-text-block">
+                    <p>Hace apenas unos días que pude zambullirme en la pesadilla que había preparado Supermassive Games
+                        con Little Nightmares 3 y el veredicto fue claro: la nueva propuesta de los padres de The Dark
+                        Pictures Anthology no está a la altura de sus predecesores. Tarsier Studios partió por su cuenta
+                        para trazar un nuevo rumbo que se está materializando con el nombre de Reanimal y ya he podido
+                        probarlo en el Steam Next Fest.</p>
+
+
+
+                    <p>Mientras que la gran virtud de Little Nightmares 3 residía en el componente cooperativo online,
+                        su mayor flaqueza se alzaba con una evidencia que asustaba. El terror, la imaginación al
+                        servicio del espanto y las sorpresas oscuras brillaban por su ausencia a lo largo de la aventura
+                        de Low y Alone, lo cual convertía al tercer título de la saga en el menos inspirado de todos
+                        hasta el momento. Más allá de la marcha de Tarsier Studios, Supermassive Games lo cierto es que
+                        no levanta cabeza desde hace tiempo, ya que se ha enfrascado en multitud de proyectos
+                        simultáneos que no le permiten enfocarse en las bases que demostraron allá por 2015 con Until
+                        Dawn.
+
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="parallax-section section-2">
+            <div class="video-container-box">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/xCQo60PWWYA"
+                        title="Tráiler oficial de presentación de REANIMAL" allowfullscreen loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-parallax-container">
+            <div class="article-flex-layout">
+                <section class="carousel-section">
+                    <h2 class="carousel-title">Galería de Imágenes</h2>
+
+                    <div class="carousel-wrapper">
+                        <div class="carousel-viewport">
+                            <div class="carousel-track" id="carouselTrack">
+
+                                <article class="carousel-item">
+                                    <picture>
+                                        <source srcset="images/re1.webp" type="image/webp">
+                                        <img src="images/re1.webp" alt="Imagen 1" loading="lazy">
+                                    </picture>
+                                </article>
+
+                                <article class="carousel-item">
+                                    <picture>
+                                        <source srcset="images/re2.webp" type="image/webp">
+                                        <img src="images/re2.webp" alt="Imagen 2" loading="lazy">
+                                    </picture>
+                                </article>
+
+                                <article class="carousel-item">
+                                    <picture>
+                                        <source srcset="images/re3.webp" type="image/webp">
+                                        <img src="images/re3.webp" alt="Imagen 3" loading="lazy">
+                                    </picture>
+                                </article>
+
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" id="btnPrev" aria-label="Anterior">&#10094;</button>
+                        <button class="carousel-btn next" id="btnNext" aria-label="Siguiente">&#10095;</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#" class="footer__link">Privacidad</a>
+        <a href="#" class="footer__link">Terminos</a>
+        <a href="#" class="footer__link">Ayuda</a>
+        <a href="#" class="footer__link">Redes Sociales</a>
+        <p class="footer__copyright">&copy; 2026 Catabasis Games Web</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='x-UA-Compatible' content='IE=edge'>
+    <title>Catabasis Games</title>
+    <meta name="description" content="Noticias de Videojuegos">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/webp' href='images/logo.webp'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src='js/main.js' defer></script>
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="images/logo.webp" alt="Logo" class="header__logo">
+                <h1 class="header__title">CATABASIS GAMES</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href='index.html' class="activo">INICIO</a></li>
+                    <li class="header__nav-item header__nav-item--dropdown">
+                        <a href="noticias.html">NOTICIAS</a>
+                        <ul class="header__submenu">
+                            <li><a href="podcast.html">PODCAST</a></li>
+                            <li><a href="articulos.html">ARTICULOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="registro.html" class="header__user-icon">
+                            <img src="images/icono-usuario.jpg" alt="Usuario">
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger"> <!--Menu Hamburguesa-->
+            <div class="hamburger__layer hamburger__layer--top"></div>
+            <div class="hamburger__layer hamburger__layer--mid"></div>
+            <div class="hamburger__layer hamburger__layer--bottom"></div>
+        </div>
+        <nav class="menuppal"> <!--Submenu-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="articulos.html">ARTICULOS</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <div class="blog-layout">
+
+            <section class="main-content">
+                <h2 class="news-section__main-title">Últimas Noticias</h2>
+
+                <article class="news-card"> <!--Noticia Juegos del 2026 -->
+                    <a href="#" class="news-card__link" title="Leer noticia">
+                        <div class="news-card__container">
+                            <div class="news-card__image-container">
+                                <picture>
+                                    <source srcset="images/juegos2026.webp" type="image/webp">
+                                    <img src="images/juegos2026.webp" alt="Portada de Juegos del 2026"
+                                        class="news-card__img" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="news-card__content">
+                                <header class="news-card__header">
+                                    <h3 class="news-card__title">Juegos 2026</h3>
+                                </header>
+                                <p class="news-card__excerpt"> Aquí encontrarás el calendario con las fechas de
+                                    lanzamiento de todos los juegos actualizadas día a día para que puedas conocer
+                                    qué juegos ya han salido o saldrán en 2026</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card"> <!--Noticia Hades 2 -->
+                    <a href="#" class="news-card__link" title="Leer noticia">
+                        <div class="news-card__container">
+                            <div class="news-card__image-container">
+                                <picture>
+                                    <source srcset="images/hades2.webp" type="image/webp">
+                                    <img src="images/hades2.webp" alt="Portada de Hades 2" class="news-card__img"
+                                        loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="news-card__content">
+                                <header class="news-card__header">
+                                    <h3 class="news-card__title">Hades 2</h3>
+                                </header>
+                                <p class="news-card__excerpt">Más y mejor, pero siempre con la impresión de ser algo
+                                    novedoso y original. La secuela del roguelite más famoso refina una fórmula de
+                                    eficacia probada.</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card"> <!--Noticia Mouse P.I -->
+                    <a href="#" class="news-card__link" title="Leer noticia">
+                        <div class="news-card__container">
+                            <div class="news-card__image-container">
+                                <picture>
+                                    <source srcset="images/mouse.jpg" type="image/jpeg">
+                                    <img src="images/mouse.jpg" alt="Portada de Mouse P.I" class="news-card__img"
+                                        loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="news-card__content">
+                                <header class="news-card__header">
+                                    <h3 class="news-card__title">
+                                        Mouse: P.I. For Hire</h3>
+                                </header>
+                                <p class="news-card__excerpt">Ambientado en Mousebug, la ciudad de estilo noir de
+                                    dibujos animados, MOUSE P.I For Hire ofrece una combinación única de explosivas
+                                    en primera persona.</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card"> <!--Noticia Grand Theft Auto VI -->
+                    <a href="#" class="news-card__link" title="Leer noticia">
+                        <div class="news-card__container">
+                            <div class="news-card__image-container">
+                                <picture>
+                                    <source srcset="images/gta.jpg" type="image/jpeg">
+                                    <img src="images/gta.jpg" alt="Portada Grand Theft Auto VI" class="news-card__img"
+                                        loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="news-card__content">
+                                <header class="news-card__header">
+                                    <h3 class="news-card__title">Grand Theft Auto VI</h3>
+                                </header>
+                                <p class="news-card__excerpt"> Llega más de diez años después de GTA 5, que ha vendido
+                                    cerca de 200 millones de copias, y de superar las previsiones más optimistas gracias
+                                    a Grand Theft Auto Online.</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer"> <!--Footer-->
+        <a href="#" class="footer__link">Privacidad</a>
+        <a href="#" class="footer__link">Terminos</a>
+        <a href="#" class="footer__link">Ayuda</a>
+        <a href="#" class="footer__link">Redes Sociales</a>
+        <p class="footer__copyright">&copy; 2026 Catabasis Games Web</p>
+    </footer>
+</body>
+
+</html>

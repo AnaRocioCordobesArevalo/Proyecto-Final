@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='x-UA-Compatible' content='IE=edge'>
+    <title>Catabasis Games</title>
+    <meta name="description" content="Iniciar sesión en Catabasis Games y se feliz.">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/webp' href='images/logo.webp'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src='js/main.js' defer></script>
+</head>
+
+<body>
+    <header class="header"> <!--Header-->
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="images/logo.webp" alt="Logo" class="header__logo">
+                <h1 class="header__title">CATABASIS GAMES</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href='index.html' class="activo">INICIO</a></li>
+                    <li class="header__nav-item header__nav-item--dropdown">
+                        <a href="noticias.html">NOTICIAS</a>
+                        <ul class="header__submenu">
+                            <li><a href="podcast.html">PODCAST</a></li>
+                            <li><a href="articulos.html">ARTICULOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="registro.html" class="header__user-icon">
+                            <img src="images/icono-usuario.jpg" alt="Usuario">
+                        </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger"> <!--Menu Hamburguesa-->
+            <div class="hamburger__layer hamburger__layer--top"></div>
+            <div class="hamburger__layer hamburger__layer--mid"></div>
+            <div class="hamburger__layer hamburger__layer--bottom"></div>
+        </div>
+        <nav class="menuppal"> <!--Submenu-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="articulos.html">ARTICULOS</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="form-container"> <!--Iniciar Sesión-->
+            <h2 class="header__tittle--h4">Iniciar Sesión</h2>
+
+            <form class="form-register" action="login.php" method="POST">
+
+                <label for="email">Correo Electronico</label>
+                <input class="controls" type="email" name="email" id="email"
+                    placeholder="Introduce tu correo electrónico" required>
+
+                <label for="password">Contraseña</label>
+                <input class="controls" type="password" name="password" id="password"
+                    placeholder="Introduce tu contraseña" required>
+
+                <p>¿No tienes cuenta? <a class="controls__link" href="registro.html">Regístrate aquí</a></p>
+
+                <button type="submit" class="bottons">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <footer class="footer"><!--Footer-->
+        <a href="#" class="footer__link">Privacidad</a>
+        <a href="#" class="footer__link">Terminos</a>
+        <a href="#" class="footer__link">Ayuda</a>
+        <a href="#" class="footer__link">Redes Sociales</a>
+        <p class="footer__copyright">&copy; 2026 Catabasis Games Web</p>
+    </footer>
+</body>
+
+</html>
